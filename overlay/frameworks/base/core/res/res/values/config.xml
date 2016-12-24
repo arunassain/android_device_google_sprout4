@@ -239,7 +239,6 @@
     players. -->
     <integer name="config_safe_media_volume_index">8</integer>
 
-
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
          Here are a few of them:
@@ -253,7 +252,6 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
-	
 
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
@@ -283,21 +281,7 @@
 
     <bool name="config_user_notification_of_restrictied_mobile_access">false</bool>
 
-    <!-- enable doze powersaving mode -->
-    <bool name="config_enableAutoPowerModes">true</bool>
-
-    <!-- Performance profiles -->
-	<!--
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string> -->
-
-    <!-- Enable the option to check proximity sensor when deciding whether to
-         turn the screen on
-         NOTE ! - Enable for devices that have a fast response proximity sensor -->
-	<!--
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">400</integer> -->
-	<!-- The RadioAccessFamilies supported by the device.
+    <!-- The RadioAccessFamilies supported by the device.
          Empty is viewed as "all".  Only used on devices which
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
