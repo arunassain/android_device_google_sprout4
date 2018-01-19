@@ -321,6 +321,9 @@
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
+
     <bool name="config_user_notification_of_restrictied_mobile_access">false</bool>
 
   	<!-- The RadioAccessFamilies supported by the device.
